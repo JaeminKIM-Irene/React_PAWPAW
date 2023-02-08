@@ -1,0 +1,80 @@
+.eventDContent {
+    margin-left: 13.6vw;
+    width: 73%;
+    font-family: 'gmarketSans';
+    padding-top: 10.5vw;
+}
+
+.eventDContent2 {
+    width: 100%;
+}
+
+.eventDT {
+    font-size: 1.4vw;
+    font-family: 'texGyreB';
+    cursor: default;
+}
+
+.eventDLine {
+    border-bottom: 3px solid black;
+    width: 82.5%;
+    margin-left: 1.9vw;
+    height: 1.1vw;
+}
+
+.eventDName {
+    font-size: 3.1vw;
+    margin-top: 1.9vw;
+    cursor: default;
+}
+
+.eventDInfo {
+    border: 3px solid black;
+    width: 90%;
+    padding-top: 1.3vw;
+    margin-top: 1vw;
+}
+
+.eventDInfo2 {
+    border: 3px solid black;
+    width: 85.6%;
+    font-size: 0.85vw;
+    padding: 1vw;
+    line-height: 1.2vw;
+    cursor: default;
+}
+
+.eventDPoster {
+    border: 3px solid black;
+    width: 61%;
+    height: 37vw;
+    margin-top: 1vw;
+    padding-top: 1vw;
+}
+
+.eventDPoster2 {
+    width: 94%;
+    margin-left: 0.75vw;
+    margin-right: 0.5vw;
+    
+}
+
+.eventDT2 {
+    display: flex;
+    margin-left: 1.8vw;
+    font-size: 0.85vw;
+    margin-bottom: 1.7vw;
+    cursor: default;
+}
+
+.eventDT2 > div {
+    margin-left: 5vw;
+    position: absolute;
+}
+
+.eventDT3 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-family: 'gmarketSansB';
+    font-size: 0.85vw;
+}

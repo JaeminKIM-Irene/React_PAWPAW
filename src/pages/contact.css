@@ -1,0 +1,90 @@
+.contactArrow {
+    height: 16vw;
+    margin-top: 6vw;
+    margin-left: 25vw;
+}
+
+.contactD {
+    font-family: 'gmarketSans';
+    text-align: center;
+    width: 40vw;
+    margin-top: 1vw;
+}
+
+.contactT1 {
+    font-family: 'texGyreB';
+    font-size: 4.2vw;
+    margin-top: 2.2vw;
+    margin-bottom: 1.7vw;
+    cursor: default;
+}
+
+.contactBox {
+    width: 71%;
+    margin:auto;
+    padding-top: 1.7vw;
+}
+
+.contactT2{
+    cursor: default;
+    font-size: 1.1vw;
+}
+
+.contactT3 {
+    font-size: 0.9vw;
+    text-align: left;
+    margin-top: 1.5vw;
+    cursor: default;
+}
+
+.contactInput {
+    width: 98%;
+    border: 3px solid black;
+    height: 1.7vw;
+    margin-bottom: 0.9vw;
+    text-indent: 1vw;
+    font-family: 'gmarketSans';
+}
+
+.contactInput::placeholder {
+    color: #94A0AB;
+    font-family: 'gmarketSans';
+}
+
+.contactInput2 {
+    width: 98%;
+    border: 3px solid black;
+    height: 12.5vw;
+    margin-bottom: 0.9vw;
+    text-indent: 1vw;
+    padding-top: 0.5vw;
+    font-family: 'gmarketSans';
+    resize: vertical;
+}
+
+.contactInput2::placeholder {
+    color: #94A0AB;
+    font-family: 'gmarketSans';
+}
+
+.contactCheckB {
+    text-align: left;
+    margin-top: 0.3vw;
+}
+.contactCheck {
+    cursor: pointer;
+    
+}
+
+label[for='agree'] {
+    font-size: 0.8vw;
+    position: relative;
+    top: -0.2vw;
+    cursor: pointer;
+}
+
+.contactSub {
+    width: 46%;
+    margin-top: 4.7vw;
+    cursor: pointer;
+}

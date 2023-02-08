@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "gmarketSans";
+  src: url(./font/GmarketSansOTF/GmarketSansMedium.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "gmarketSansL";
+  src: url(./font/GmarketSansOTF/GmarketSansLight.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "gmarketSansB";
+  src: url(./font/GmarketSansOTF/GmarketSansBold.otf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "Lexend";
+  src: url(./font/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "LexendB";
+  src: url(./font/Lexend_Deca/static/LexendDeca-ExtraBold.ttf);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'pretendard';
+  src: url(./font/Pretendard/Pretendard-Regular.woff);
+}
+
+@font-face {
+  font-family: 'pretendardL';
+  src: url(./font/Pretendard/Pretendard-ExtraLight.woff);
+}
+
+@font-face {
+  font-family: 'texGyreB';
+  src: url(./font/tex-gyre-adventor/texgyreadventor-bold.otf);
+}
+
+@font-face {
+  font-family: 'texGyre';
+  src: url(./font/tex-gyre-adventor/texgyreadventor-regular.otf);
 }

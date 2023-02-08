@@ -1,0 +1,114 @@
+.eventContent {
+    width: 76%;
+    margin-left: 13.6vw;
+    font-family: 'gmarketSans';
+    padding-top: 0.6vw;
+    padding-top: 8.5vw;
+}
+
+.eventContent2 {
+    height: 38vw;
+}
+
+.eventT {
+    font-size: 5.2vw;
+    font-family: 'texGyreB';
+    margin-left: 0.2vw;
+    cursor: default;
+}
+
+.eventDrop {
+    margin-left: 17.3vw;
+    padding-top: 1.9vw;
+    cursor: pointer;
+    margin-top: 3.5vw;
+}
+
+.dropT {
+    border-bottom: 3px solid black;
+    height: 1.7vw;
+    width: 11vw;
+    font-size: 1.05vw;
+}
+
+.dropT2 {
+    visibility: hidden;
+    height: 4.3vw;
+}
+
+.eventDrop > li {
+    list-style: none;
+    border: 3px solid black;
+    margin-top: -0.2vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    font-size: 0.9vw;
+}
+
+.eventDrop > li >li {
+    margin-bottom: 0.8vw;
+}
+
+.eventDrop > li >li >li:first-child{
+    margin-bottom: 1.4vw;
+}
+
+.eventArrow {
+    width: 1.6vw;
+    float: right;
+    margin-top: -0.3vw;
+}
+
+.eventArrow2{
+    width: 1.6vw;
+    float: right;
+    margin-top: -0.3vw;
+    animation: 0.3s ease arrow-show;
+    animation-fill-mode: forwards;
+}
+
+.eventList {
+    border: 3px solid black;
+    width: 33.5vw;
+    height: 16vw;
+    border-radius: 0.6vw;
+    float: left;
+    margin-right: 1.8vw;
+    margin-bottom: 1.5vw;
+    display: flex;
+    padding-left: 1.5vw;
+    padding-top: 1.2vw;
+}
+
+.eventPoster {
+    width: 14.5vw;
+    margin-bottom: 1.2vw;
+
+}
+
+.eventD {
+    margin-left: 1vw;
+    width: 15vw;
+}
+
+.eventName {
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    height: 8.5vw;
+    color: black;
+    cursor: pointer;
+}
+
+.eventD2 {
+    margin-bottom: 1.3vw;
+    font-size: 0.9vw;
+    cursor: default;
+}
+
+.eventDL {
+    color: #94A0AB;
+}
+
+.eventDL:hover {
+    font-weight: bold;
+}

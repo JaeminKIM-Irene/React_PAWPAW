@@ -1,0 +1,78 @@
+.submitD {
+    font-family: 'gmarketSans';
+    text-align: center;
+    padding-top: 8.5vw;
+}
+
+.submitTs {
+    margin-bottom: 5vw;
+}
+
+.submitT {
+    font-family: 'texGyreB';
+    font-size: 6vw;
+    margin-top: 3.2vw;
+    margin-bottom: 4vw;
+    cursor: default;
+}
+
+.submitT2 {
+    font-size: 1.4vw;
+    margin-top: -0.4vw;
+}
+
+.submitDirect{
+    width: 29.3%;
+    margin:auto;
+    height: 6vw;
+}
+
+.submitALW{
+    height: 5.2vw;
+    width: 5.2vw;
+    float: left;
+    margin-right: 1.3vw;
+    background-image: url('../images/arrowLW.png');
+    background-size: cover;
+}
+
+.submitALW:hover {
+    background-image: url('../images/arrowLB.png');
+}
+
+.submitGW {
+    height: 4.898vw;
+    width: 15.8vw;
+    float: left;
+    background-image: url('../images/gohomeW.png');
+    background-size: cover;
+}
+
+.submitGW:hover{
+    background-image: url('../images/gohomeB.png');
+}
+
+.submitARW {
+    height: 5.2vw;
+    width: 5.2vw;
+    float: right;
+    margin-left: 1.3vw;
+    background-image: url('../images/arrowRW.png');
+    background-size: cover;
+}
+
+.submitARW:hover {
+    background-image: url('../images/arrowRB.png');
+}
+
+.submitCW{
+    height: 4.895vw;
+    width: 15.8vw;
+    float: right;
+    background-image: url('../images/checkW.png');
+    background-size: cover;
+}
+
+.submitCW:hover {
+    background-image: url('../images/checkB.png');
+}

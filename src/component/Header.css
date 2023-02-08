@@ -1,0 +1,59 @@
+.headerC {
+    height: 8.5vw;
+    width: 100%;
+    font-size: 1.2vw;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+}
+
+.logoS {
+    width: 7.5%;
+    margin-left: 3.5vw;
+    margin-top: 1vw;
+    float: left;
+    cursor: pointer;
+}
+
+.headerC2 {
+    height: 100%;
+}
+
+.navlinks {
+    width: 38%;
+    height: 100%;
+    float: right;
+    margin-right: 2vw;
+    text-align: center;
+}
+
+.link {
+    width: 20%;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translate(-2%,-50%);
+    cursor: pointer;
+    color: black;
+}
+
+.navlinks .active .link {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+}
+
+.link:hover {
+    font-family: 'LexendB';
+    font-size: 1.2vw;
+}
+
+.logout {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translate(-2%,-50%);
+    margin-right: 7vw;
+    cursor: pointer;
+    color: black;
+}
