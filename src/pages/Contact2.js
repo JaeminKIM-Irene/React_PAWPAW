@@ -12,7 +12,7 @@ const Contact2 = () => {
             </div>
             
             <div className='submitDirect'>
-                <NavLink to={'/landing'}>
+                <NavLink to={'/'}>
                     <div className='submitALW' />
                     <div className='submitGW' />
                 </NavLink>

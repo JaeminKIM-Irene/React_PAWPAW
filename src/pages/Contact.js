@@ -18,16 +18,25 @@ const Contact = () => {
     },[])
 
     const inputChange = (e) => {
+        e.persist()
         setContactInput((prevState) => {
             const {name, value} = e.target;
             return {...prevState, [name]: value}
         })
     }
 
-    const submitEmail = (e) => {
-        //service id & template id & form 
-        send('service_b2rxhcl', 'template_33z55kj', contactInput)
-        window.location.pathname='/contact/submit'
+    const submitEmail = () => {
+        if (contactInput.name == '' || contactInput.email == '' || contactInput.title == '' || contactInput.detail == '') {
+            alert("모든 항목을 작성해주세요.")
+        }
+        else if (!document.getElementById('agree').checked) {
+            alert("개인정보 및 수집이용에 동의해주세요.")
+        }
+        else {
+            //service id & template id & form 
+            send('service_b2rxhcl', 'template_33z55kj', contactInput)
+            window.location.pathname='/contact/submit'
+        }
     }
 
     return (

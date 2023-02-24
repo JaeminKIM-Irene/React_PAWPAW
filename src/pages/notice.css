@@ -100,13 +100,17 @@
 
 .detailArrow {
     width: 1.3vw;
-    margin-right: 0.5vw;
+    float: right;
+    margin-right: 1.7vw;
 }
 .turn{
     width: 1.3vw;
-    margin-right: 0.5vw;
     animation: 0.3s ease arrow-show;
     animation-fill-mode: forwards;
+    float: right;
+    margin-top: -0.3vw;
+    margin-right: 1.7vw;
+    margin-left: -1.7vw;
 }
 
 @keyframes detail-show {

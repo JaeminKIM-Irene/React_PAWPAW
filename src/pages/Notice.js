@@ -57,7 +57,7 @@ const Notice = () => {
                                 
                                 <td>
                                     {open[notice.id-1]? (
-                                        <img src={Arrow} alt="" className={`box-wrap ${effect2}`}/>
+                                        <img src={Arrow} alt="" className={`${effect2}`}/>
                                     ):(
                                         <img src={Arrow} alt="" className='detailArrow'/>
                                     )}

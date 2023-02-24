@@ -151,29 +151,35 @@ const directToD = (e) => {
                 </ul>
             </div>
             <div className='eventContent2'>
-                {now ? events.filter(event => (today - event.duration[0].getTime() < 0)).map((event) => (
-                    <div className='eventList'>
-                        <img src={process.env.PUBLIC_URL +event.poster1} alt="" className='eventPoster' />
-                        <div className='eventD'>
-                            <div className='eventName' onClick={()=>directToD(event)}>{event.name}</div>
-                            <div className='eventD2'>{event.place}</div>
-                            <div className='eventD2' >D{getDday(event)}</div>
-                            <div className='eventD2' >{getFull(event.duration[0])} - {getFull(event.duration[1])}</div>
+                    {now ? events.filter(event => (today - event.duration[0].getTime() < 0)).length == 0 ? 
+                        <div className='noResult'>예정된 전시가 없습니다</div>
+                        :
+                        events.filter(event => (today - event.duration[0].getTime() < 0)).map((event) => (
+                            <div className='eventList' onClick={()=>directToD(event)}>
+                                <img src={process.env.PUBLIC_URL +event.poster1} alt="" className='eventPoster' />
+                                <div className='eventD'>
+                                    <div className='eventName' >{event.name}</div>
+                                    <div className='eventD2'>{event.place}</div>
+                                    <div className='eventD2' >D{getDday(event)}</div>
+                                    <div className='eventD2' >{getFull(event.duration[0])} - {getFull(event.duration[1])}</div>
+                                </div>
+                            </div>
+                    ))
+                    :
+                    events.filter(event => (today - event.duration[0].getTime() > 0)).length == 0 ? 
+                    <div className='noResult'>지난 전시가 없습니다</div>
+                    :
+                    events.filter(event => (today - event.duration[0].getTime() > 0)).map((event) => (
+                        <div className='eventList' onClick={()=>directToD(event)}>
+                            <img src={process.env.PUBLIC_URL +event.poster1} alt="" className='eventPoster' />
+                            <div className='eventD'>
+                                <div className='eventName' >{event.name}</div>
+                                <div className='eventD2'>{event.place}</div>
+                                <div className='eventD2' >D{getDday(event) >=0?'+' : ''}{getDday(event)}</div>
+                                <div className='eventD2' >{getFull(event.duration[0])} - {getFull(event.duration[1])}</div>
+                            </div>
                         </div>
-                    </div>
-                ))
-                :
-                events.filter(event => (today - event.duration[0].getTime() > 0)).map((event) => (
-                    <div className='eventList'>
-                        <img src={process.env.PUBLIC_URL +event.poster1} alt="" className='eventPoster' />
-                        <div className='eventD'>
-                            <div className='eventName' onClick={()=>directToD(event)}>{event.name}</div>
-                            <div className='eventD2'>{event.place}</div>
-                            <div className='eventD2' >D{getDday(event)}</div>
-                            <div className='eventD2' >{getFull(event.duration[0])} - {getFull(event.duration[1])}</div>
-                        </div>
-                    </div>
-                ))}
+                    ))}
                 
             </div>
         </div>
