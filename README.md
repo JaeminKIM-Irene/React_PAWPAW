@@ -29,13 +29,46 @@
 
 ## 페이지별 주요기능
 ### 1. Home
+:small_blue_diamond: </br>
+네비게이션 헤더 </br>
+:small_blue_diamond: </br>
+업로드된 이벤트 리스트 4개 </br>
+:small_blue_diamond: </br>
+About, Event, Notice, Contact로 라우팅 되는 버튼 </br>
+:small_blue_diamond: </br>
+스크롤에 반응하는 fade 애니메이션 </br></br>
 
 ### 2. About
+:small_blue_diamond: </br>
+파우파우 웹사이트 소개 </br>
+:small_blue_diamond: </br>
+스크롤에 반응하는 fade 애니메이션 </br>
 
 ### 3. Notice
+:small_blue_diamond: </br>
+공지 목록 조회 </br>
+:small_blue_diamond: </br>
+테이블 행 클릭시 토글되는 공지 상세 내용 </br></br>
 
 ### 4. Event
+:small_blue_diamond: </br>
+업로드된 이벤트 리스트 조회</br>
+:small_blue_diamond: </br>
+이벤트 포스터, 이름, 장소, D-day, 기간 정보 </br>
+:small_blue_diamond: </br>
+현재 날짜에 따른 예정 전시 & 지난 전시 분류 </br>
+:small_blue_diamond: </br>
+이벤트 클릭시 상세페이지로 이동 </br></br>
 
-### 5. Contact
+### 5. Event 상세페이지
+:small_blue_diamond: </br>
+특정 이벤트의 상세한 정보 및 안내 사항 조회 </br></br>
 
+### 6. Contact
+:small_blue_diamond: </br>
+EmailJS를 이용한 이메일 문의 </br>
+:small_blue_diamond: </br>
+"Submit" 버튼 클릭 시 모든 항목 작성 여부 및 동의 체크박스 체크 여부 확인 </br>
+:small_blue_diamond: </br>
+"Submit" 후 Home이나 Event 페이지로 라우팅  </br></br>
 </div>
